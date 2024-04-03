@@ -1,32 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CSS480 - Hello World</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    
-	  <!--
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CSS480 - Hello World</title>
+</head>
+
+<body>
+  <div id="root"></div>
+
+  <!--
         1. The home page should welcome visitors with a warm welcome message of text.
 	2. The home page should let visitors know who you are. This should be a short written narrative and at least 1 image.
 	3. The home page should have at least one list of things that interest you.
 	4. The home page should have a button that lets the user re-order a list.
     -->
-	<h1>Hello World</h1>
+  <h1 class="h1">Hello World</h1>
 
-	<p>Welcome to my page!</p>
-	<p>I am Shirlyn Shih, a junior majoring in Applied Computing at UW Bothell.</p>
-	<img src="https://i.pinimg.com/474x/7a/f0/04/7af004703ee797756ba58c0b186fdca9.jpg" />
-	<h4>Things I like:</h4>
-	  <ul>
-  		<li>Cats</li>
-  		<li>Boba</li>
-  		<li>Art</li>
-	</ul>
-    
-    
-  </body>
+  <p class="p1">Welcome to my page!</p>
+  <p class="p1">I am Shirlyn Shih, a junior majoring in Applied Computing at UW Bothell.</p>
+  <img src="https://i.pinimg.com/474x/7a/f0/04/7af004703ee797756ba58c0b186fdca9.jpg" />
+  <h4 class="h1">Things I like:</h4>
+  <div class="sortable-list">
+    <ul id="sortable">
+      <li draggable="true">Cats</li>
+      <li draggable="true">Sushi</li>
+      <li draggable="true">Art</li>
+      <!-- Add more list items as needed -->
+    </ul>
+  </div>
+  <script src="script.js"></script>
+
+</body>
+
 </html>
