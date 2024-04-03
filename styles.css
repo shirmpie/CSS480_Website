@@ -1,1 +1,19 @@
+body {
+  text-align: center; /* Center align all text */
+}
 
+#root {
+  margin: 0 auto; /* Center the content horizontally */
+  max-width: 800px; /* Adjust as needed */
+  text-align: left; /* Reset text alignment for content */
+}
+
+#sortable-list {
+  list-style-type: none; /* Remove default list styles */
+  padding: 0;
+}
+
+#sortable-list li {
+  margin: 5px 0; /* Adjust spacing between list items */
+  cursor: grab; /* Add grab cursor for draggable items */
+}
