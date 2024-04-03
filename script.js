@@ -8,6 +8,5 @@ function enableListReorder() {
     }
   });
 }
-
 // Call the function to enable list reordering
 enableListReorder();
